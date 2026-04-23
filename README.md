@@ -1,14 +1,16 @@
-<h1 align="center">SignalStack</h1>
+<div align="center">
 
-<h3 align="center">Business Intelligence Forecasting Engine</h3>
+# SignalStack
+
+### Business Intelligence Forecasting Engine
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 [![TNDS](https://img.shields.io/badge/TNDS-truenorthstrategyops.com-0A8EA0?style=for-the-badge)](https://truenorthstrategyops.com)
 
-<p align="center">
-  <img src="./signalstack.png" alt="SignalStack Logo" width="260" />
-</p>
+<img src="./signalstack.png" alt="SignalStack Logo" width="260" />
+
+</div>
 
 SARIMA time series forecasting pipeline for five SignalStack business metrics.
 One codebase. Five signals. Each source runs independently with its own data,
