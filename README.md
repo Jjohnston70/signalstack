@@ -1,3 +1,4 @@
+<p align="center">
 # SignalStack
 
 ### Business Intelligence Forecasting Engine
