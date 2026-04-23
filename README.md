@@ -1,7 +1,6 @@
-<p align="center">
-# SignalStack
+<h1 align="center">SignalStack</h1>
 
-### Business Intelligence Forecasting Engine
+<h3 align="center">Business Intelligence Forecasting Engine</h3>
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
