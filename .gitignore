@@ -1,0 +1,81 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual environments ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# --- Secrets / Credentials ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# --- Data / Outputs (keep structure, ignore generated content) ---
+# Raw inputs are sample data, keep them.
+# Processed and output files are reproducible from run_pipeline.py.
+data/processed/**/*.csv
+data/output/**/*.csv
+data/output/**/*.docx
+data/output/**/*.html
+data/output/**/*.txt
+!data/output/accuracy_log.csv
+!data/**/.gitkeep
+
+# --- Reports ---
+reports/
+*.docx
+!docs/*.docx
+
+# --- Logs ---
+*.log
+logs/
+
+# --- Packaged output ---
+dist-package/
+*.zip
+*.tar.gz
+
+# --- Keep trained demo models ---
+# .pkl normally ignored, but we keep the seeded demo models to make first-run reproducible.
+# If you want to exclude them, uncomment the next line:
+# models/**/*.pkl
