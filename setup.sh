@@ -2,7 +2,7 @@
 # setup.sh — SignalStack virtual environment setup
 # Usage: bash setup.sh
 
-PROJECT_NAME=${1:-tnds-signal-engine}
+PROJECT_NAME=${1:-signalstack}
 VENV_DIR="venv_${PROJECT_NAME}"
 
 echo "============================================================"

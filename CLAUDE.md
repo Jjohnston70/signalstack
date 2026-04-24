@@ -1,4 +1,4 @@
-# CLAUDE.md — ML-SIGNAL-STACK
+# CLAUDE.md — SIGNALSTACK
 
 Agent-facing context for this repo. Applies to any LLM coding agent touching this code.
 

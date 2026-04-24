@@ -79,3 +79,8 @@ dist-package/
 # .pkl normally ignored, but we keep the seeded demo models to make first-run reproducible.
 # If you want to exclude them, uncomment the next line:
 # models/**/*.pkl
+
+# --- OS noise ---
+desktop.ini
+Thumbs.db
+.DS_Store

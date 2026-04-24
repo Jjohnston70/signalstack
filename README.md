@@ -71,7 +71,7 @@ python fix_root_workbooks.py
 bash setup.sh
 
 # 2. Activate
-source venv_tnds-signal-engine/bin/activate
+source venv_signalstack/bin/activate
 
 # 3. Export Excel workbooks to CSV (place .xlsx files in project root first)
 python export_to_csv.py        # auto-runs root workbook integrity fixes first
@@ -96,7 +96,7 @@ python package_output.py
 ## Folder Structure
 
 ```
-tnds-signal-engine/
+signalstack/
   config.py               # Source registry + all parameters
   run_pipeline.py         # Single entry point — pass --source
   export_to_csv.py        # Batch Excel → CSV export utility

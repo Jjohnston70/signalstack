@@ -86,7 +86,7 @@ This gives you enough history for model testing and backtesting. Continue adding
 ## 3. Folder Structure — Where Everything Lives
 
 ```
-ml-signal-stack/
+signalstack/
   config.py                        Master settings. Change parameters here.
   run_pipeline.py                  Run the forecasting engine.
   export_to_csv.py                 Export Excel data to CSVs the engine reads.
@@ -218,10 +218,10 @@ Every week after updating your Excel files, open PowerShell, navigate to your pr
 
 ### Step 1: Activate the environment (if not already active)
 ```powershell
-cd path\to\ml-signal-stack
-.\venv_tnds-signal-engine\Scripts\Activate.ps1
+cd path\to\signalstack
+.\venv_signalstack\Scripts\Activate.ps1
 ```
-You'll know it's active when you see `(venv_tnds-signal-engine)` at the start of the prompt.
+You'll know it's active when you see `(venv_signalstack)` at the start of the prompt.
 
 ### Step 2: Export Excel data to CSV
 ```powershell
@@ -783,7 +783,7 @@ The historical periods the SARIMA model learned from. Shown as the blue line on 
 The most recent portion of your history held back from training and used to test how accurate the model is. Shown as the green line on forecast charts. The difference between green and orange is your error rate.
 
 **Virtual Environment (venv)**
-A self-contained Python installation specific to this project. Keeps SignalStack's dependencies isolated from other software on your computer. Activated by running `.\venv_tnds-signal-engine\Scripts\Activate.ps1`.
+A self-contained Python installation specific to this project. Keeps SignalStack's dependencies isolated from other software on your computer. Activated by running `.\venv_signalstack\Scripts\Activate.ps1`.
 
 ---
 
@@ -792,7 +792,7 @@ A self-contained Python installation specific to this project. Keeps SignalStack
 ### Weekly Commands
 ```powershell
 # Activate environment
-.\venv_tnds-signal-engine\Scripts\Activate.ps1
+.\venv_signalstack\Scripts\Activate.ps1
 
 # Update Excel files first, then:
 python fix_root_workbooks.py   # optional standalone repair pass
